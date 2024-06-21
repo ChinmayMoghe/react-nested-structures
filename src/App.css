@@ -1,0 +1,50 @@
+html {
+  font-size: 16px;
+  --list-inline-padding: 1.5rem;
+}
+
+body {
+  background-color: #333;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.file_list {
+  list-style-type: none;
+  padding-inline-start: var(--list-inline-padding);
+  margin-block: 0.5rem;
+}
+
+.list_item {
+  margin-block: 0.5rem;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 1px solid lightblue;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  background-color: #0219ab;
+  color: white;
+}
+
+.add_file_action {
+  margin-block: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  margin-inline-start: var(--list-inline-padding);
+}
+
+.folder_btn {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 0.4rem;
+}
